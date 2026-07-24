@@ -1,4 +1,4 @@
-# Hi, I'm Mert 👋
+# Hi, I'm Mert a.k.a `@polymert`👋
 
 ### Embedded Software Engineer | IoT Developer
 
