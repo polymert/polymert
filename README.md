@@ -2,31 +2,44 @@
 
 ### Embedded Software Engineer | IoT Developer
 
-I enjoy building stuff.
-
-My primary interests are:
-
-- 🔧 Embedded Software
-- 📡 IoT & Wireless Communication
-- ⚡ Microcontrollers
-- 🤖 Automation & CI/CD
+I build end-to-end embedded IoT systems — from firmware up through cloud connectivity and the tooling around them. Transitioning deeper into embedded/IoT engineering, with a focus on connected hardware.
 
 ---
 
-## 🚀 About Me
+## 🚀 Currently
 
-- 🌱 Always learning modern software engineering practices
-- 🛠️ I like designing practical tools that solve real problems for myself and the people around me
+- 🔭 Building **Schatzograph** — a full FreeRTOS multi-driver ESP32 firmware project (see below)
+- 📡 Deep in Bluetooth Low Energy, ESP32, and MQTT/protobuf pipelines
+- 🌱 Currently learning: advanced BLE patterns, CI/CD for embedded systems
 
 ---
 
-## 💼 Current Focus
+## 📌 Featured Projects
 
-- Embedded firmware development
-- Bluetooth Low Energy (BLE)
-- ESP32-based projects
-- Desktop applications using Python
-- CI/CD for embedded projects
+### 🧭 Schatzograph — ESP32 IoT System
+
+My primary portfolio project: an ESP32-based embedded system built around end-to-end IoT ownership, from hardware bring-up to CI/CD.
+
+- **Firmware:** Full FreeRTOS multi-driver architecture — HTU21, PCF8574, PN532, DS3231, SD card, INA219
+- **Connectivity:** MQTT with `nanopb` Protobuf serialization, plus a custom Python decoder
+- **Storage & networking:** LittleFS, NVS, FTP server driver, ESPAsyncWebServer with cookie-based session auth
+- **Power:** Debugged and resolved a power-chain issue where the MT3608 sagged under ESP32 boot current, moved to a TPS63020 buck-boost converter
+- **CI/CD:** Six-stage GitLab pipeline (lint → build → docs → changelog → release → quality-gate) with firmware metadata injection, running on a self-hosted Raspberry Pi 4 runner
+
+### 🔵 BLE Terminal Scanner
+
+A Windows desktop BLE scanner and terminal tool.
+
+- Async BLE scanning built on `bleak`
+- Desktop UI with `ttkbootstrap`
+- Packaged as a standalone `.exe` via PyInstaller, with a fully automated GitHub Actions build pipeline (dynamic versioning, artifact publishing)
+
+### 🔌 IR Relay Power Switch
+
+A wireless, IR-remote-controlled power switch project.
+
+- ATtiny85 (Digispark) + ESP32 + VS1838B IR receiver driving a bistable relay
+- Solved a real-world Windows driver issue (libusb-win32 via Zadig) blocking firmware uploads
 
 ---
 
@@ -39,74 +52,15 @@ My primary interests are:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
----
+**Embedded:** ESP32 · FreeRTOS · Arduino Framework · I²C / SPI / UART · BLE · MQTT · PlatformIO
 
-### Embedded
+**Hardware:** KiCad · Power electronics (LiPo, TP4056, buck-boost) · Logic analyzer debugging
 
-- ESP32
-- FreeRTOS
-- Arduino Framework
-- I²C / SPI / UART
-- BLE
-- MQTT
-- Sensors & Peripherals
+**Desktop / Backend:** Python · Bleak · PyInstaller · Tkinter
 
----
+**Mobile:** React Native · Expo
 
-### Desktop
-
-- Python
-- Tkinter
-- Bleak
-- PyInstaller
-
----
-
-### Mobile
-
-- React Native
-- Expo
-
----
-
-### Backend & Tools
-
-- Git
-- GitHub Actions
-- GitLab CI
-- Docker
-- Linux
-- PlatformIO
-
----
-
-## 📌 Featured Projects
-
-### 🔵 BLE Terminal Scanner
-
-A modern Bluetooth Low Energy desktop scanner featuring:
-
-- Async BLE scanning
-- Windows desktop application
-- Built with Python + Bleak
-
----
-
-### 📡 ESP32 IoT Projects
-
-A collection of embedded applications focused on real-world embedded challenges:
-
-- Sensor integration
-- BLE communication
-- Infrared transmission
-- Wi-Fi & MQTT connectivity
-- Battery-powered system design
-
----
-
-### 📱 Mobile Development
-
-Android applications built with React Native and Expo.
+**Tooling:** Git · GitHub Actions · GitLab CI · Docker · Linux
 
 ---
 
@@ -116,16 +70,9 @@ Android applications built with React Native and Expo.
 
 ---
 
-## 📚 Currently Learning
-
-- Bluetooth Low Energy
-- CI/CD for Embedded Systems
-
----
-
 ## 📫 Connect
 
-- GitHub: https://github.com/polymert
+- GitHub: [@polymert](https://github.com/polymert)
 
 ---
 
